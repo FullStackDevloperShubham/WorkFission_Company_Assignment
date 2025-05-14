@@ -85,7 +85,10 @@ Follow the steps below to set up and run the application locally.
 1. Clone the Repository
 First, clone the main repository:
 
+``bash
 git clone https://github.com/FullStackDevloperShubham/WorkFission_Company_Assignment
+```
+
 cd WorkFission_Company_Assignment
 2. Set Up the Frontend
 For the frontend:
