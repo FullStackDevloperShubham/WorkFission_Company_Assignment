@@ -92,31 +92,32 @@ For the frontend:
 
 Clone the frontend repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/FullStackDevloperShubham/WorkFission_Company_Assignment Front-end
+
+git clone https://github.com/FullStackDevloperShubham/WorkFission_Company_Assignment_Front-end
+
 cd Front-end
+
+npm install
+
 Install the necessary dependencies:
 
-bash
-Copy
-Edit
-npm install
+npm run dev
+
+
+
 3. Set Up the Backend
+
 For the backend:
 
-Clone the backend repository:
-
-
-git clone https://github.com/FullStackDevloperShubham/WorkFission_Company_Assignment_Back-end
 cd Back-end
-Install the necessary dependencies:
 
-bash
-Copy
-Edit
 npm install
+
+Install the necessary dependencies
+
+npm run dev
+
+
 4. Set Up Environment Variables
 You'll need to set up the following environment variables for both the frontend and backend.
 
@@ -126,36 +127,29 @@ Create a .env file and add your PostgreSQL and Cloudinary credentials:
 PostgreSQL credentials:
 
 plaintext
-Copy
-Edit
+
 DB_HOST=your_database_host
 DB_USER=your_database_user
 DB_PASSWORD=your_database_password
 DB_NAME=your_database_name
-DB_PORT=5432
+DB_PORT=your_database_port
 Cloudinary credentials:
 
 plaintext
-Copy
-Edit
+
 CLOUDINARY_URL=your_cloudinary_url
-Frontend (optional):
+
 If you're using Cloudinary for image handling, you may need to add your Cloudinary credentials in the frontend config.
 
 5. Run the Development Server
 Backend:
+npm run dev
 Start the backend server by running the following command:
 
-bash
-Copy
-Edit
-npm run dev
+
 Frontend:
+npm run dev
 Start the frontend server by running:
 
-bash
-Copy
-Edit
-npm run dev
 
 
